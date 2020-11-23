@@ -9,7 +9,7 @@
         "url": "https://github.com/nullxception"
     },
     "icon": "assets/cherry.png",
-    "preview": true,
+    "preview": false,
     "galleryBanner": {
         "color": "#2A2A38",
         "theme": "dark"
