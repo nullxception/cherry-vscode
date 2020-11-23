@@ -5,9 +5,15 @@
 </center>
 
 ## Installation
-### GitHub clone
+
+### Easy step
+* Open the extensions sidebar on Visual Studio Code
+* Search for Cherry Theme
+* Click Install
+
+### or, GitHub clone
 ```bash
-cd ~/.vscode/extensions # or ~/.vscode-oss/extensions, depends on what version are you using right now
+cd ~/.vscode/extensions
 git clone --depth=1 https://github.com/nullxception/cherry-vscode
 ```
 

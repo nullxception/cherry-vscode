@@ -2,14 +2,14 @@
     "name": "cherry-theme",
     "displayName": "Cherry",
     "description": "Fervent Tempo battlesuit inspired Theme for VSCode",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "nullxception",
     "author": {
         "name": "Nauval Rizky",
         "url": "https://github.com/nullxception"
     },
     "icon": "assets/cherry.png",
-    "preview": true,
+    "preview": false,
     "galleryBanner": {
         "color": "#2A2A38",
         "theme": "dark"
