@@ -1,49 +1,54 @@
 {
-    "name": "cherry-theme",
-    "displayName": "Cherry",
-    "description": "Fervent Tempo battlesuit inspired Theme for VSCode",
-    "version": "0.2.0",
-    "publisher": "nullxception",
-    "author": {
-        "name": "Nauval Rizky",
-        "url": "https://github.com/nullxception"
-    },
-    "icon": "assets/cherry.png",
-    "preview": false,
-    "galleryBanner": {
-        "color": "#2A2A38",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/nullxception/cherry-vscode"
-    },
-    "bugs": {
-        "url": "https://github.com/nullxception/cherry-vscode/issues"
-    },
-    "homepage": "https://github.com/nullxception/cherry-vscode",
-    "engines": {
-        "vscode": "^1.51.1"
-    },
-    "license": "MIT",
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "cherry",
-        "flat",
-        "dark",
-        "pink",
-        "theme",
-        "color-theme"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Cherry",
-                "uiTheme": "vs-dark",
-                "path": "./themes/cherry-vscode.json"
-            }
-        ]
-    }
+	"name": "cherry-theme",
+	"displayName": "Cherry",
+	"description": "Fervent Tempo battlesuit inspired Theme for VSCode",
+	"version": "0.2.2",
+	"publisher": "nullxception",
+	"author": {
+		"name": "Nauval Rizky",
+		"url": "https://github.com/nullxception"
+	},
+	"icon": "assets/cherry.png",
+	"preview": false,
+	"galleryBanner": {
+		"color": "#2A2A38",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nullxception/cherry-vscode"
+	},
+	"bugs": {
+		"url": "https://github.com/nullxception/cherry-vscode/issues"
+	},
+	"homepage": "https://github.com/nullxception/cherry-vscode",
+	"engines": {
+		"vscode": "^1.51.1"
+	},
+	"license": "MIT",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"cherry",
+		"flat",
+		"dark",
+		"pink",
+		"theme",
+		"color-theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cherry",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cherry-vscode.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "3a8988d3-d0e7-4b9e-a92c-5336c9b294c6",
+		"publisherDisplayName": null,
+		"publisherId": "88ccc272-c90c-40a2-aa42-30ab39577a0e"
+	}
 }
