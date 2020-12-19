@@ -34,7 +34,7 @@
         "editor.wordHighlightBorder": "#FF568E70",
         "editor.wordHighlightStrongBackground": "#23232F",
         "editor.wordHighlightStrongBorder": "#FF568E70",
-        "editorBracketMatch.border": "#79839C",
+        "editorBracketMatch.border": "#79798E",
         "editorCursor.foreground": "#FF568E",
         "editorError.foreground": "#FF568EA0",
         "editorGroup.border": "#2F2F40",
@@ -48,7 +48,7 @@
         "editorIndentGuide.activeBackground": "#3F3F50",
         "editorIndentGuide.background": "#3F3F5080",
         "editorLineNumber.activeForeground": "#FF568E",
-        "editorLineNumber.foreground": "#79839C",
+        "editorLineNumber.foreground": "#79798E",
         "editorMarkerNavigation.background": "#1F2330",
         "editorOverviewRuler.border": "#B2CFFB2A",
         "editorOverviewRuler.selectionHighlightForeground": "#F39B35",
@@ -152,11 +152,11 @@
         "tab.border": "#23232F",
         "tab.hoverBorder": "#FF568E",
         "tab.inactiveBackground": "#23232F",
-        "tab.inactiveForeground": "#79839C",
+        "tab.inactiveForeground": "#79798E",
         "tab.unfocusedActiveBorder": "#2F2F40",
-        "tab.unfocusedActiveForeground": "#79839C",
-        "tab.unfocusedHoverBorder": "#79839C",
-        "tab.unfocusedInactiveForeground": "#79839C",
+        "tab.unfocusedActiveForeground": "#79798E",
+        "tab.unfocusedHoverBorder": "#79798E",
+        "tab.unfocusedInactiveForeground": "#79798E",
         "terminal.ansiBlack": "#3F3F4F",
         "terminal.ansiRed": "#FF568E",
         "terminal.ansiGreen": "#64DE83",
@@ -188,7 +188,7 @@
         "titleBar.activeForeground": "#BDC3C7",
         "titleBar.border": "#23232F",
         "titleBar.inactiveBackground": "#23232F",
-        "titleBar.inactiveForeground": "#79839C",
+        "titleBar.inactiveForeground": "#79798E",
         "welcomePage.buttonBackground": "#2F2F40",
         "welcomePage.buttonHoverBackground": "#919CB91C",
         "widget.shadow": "#23232F"
@@ -292,11 +292,11 @@
         },
         {
             "scope": ["beginning.punctuation.definition.list.markdown.xi"],
-            "settings": { "foreground": "#79839C" }
+            "settings": { "foreground": "#79798E" }
         },
         {
             "scope": ["comment, punctuation.definition.comment"],
-            "settings": { "fontStyle": "italic", "foreground": "#79839C" }
+            "settings": { "fontStyle": "italic", "foreground": "#79798E" }
         },
         {
             "scope": [
