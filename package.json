@@ -42,7 +42,7 @@
 			{
 				"label": "Cherry",
 				"uiTheme": "vs-dark",
-				"path": "./themes/cherry-vscode.json"
+				"path": "./themes/cherry.json"
 			}
 		]
 	},
