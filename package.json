@@ -43,6 +43,11 @@
 				"label": "Cherry",
 				"uiTheme": "vs-dark",
 				"path": "./themes/cherry.json"
+			},
+			{
+				"label": "Cherry Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cherry-midnight.json"
 			}
 		]
 	},
