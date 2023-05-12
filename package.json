@@ -42,14 +42,26 @@
 			{
 				"label": "Cherry",
 				"uiTheme": "vs-dark",
-				"path": "./themes/cherry.json"
+				"path": "./themes/base.json"
 			},
 			{
 				"label": "Cherry Midnight",
 				"uiTheme": "vs-dark",
-				"path": "./themes/cherry-midnight.json"
+				"path": "./themes/midnight.json"
 			}
 		]
+	},
+	"devDependencies": {
+		"@types/chroma-js": "^2.4.0",
+		"@types/node": "^20.1.3",
+		"chroma-js": "^2.1.2",
+		"color": "^3.1.2",
+		"vsce": "^1.100.1"
+	},
+	"scripts": {
+		"build": "bun src/index.ts",
+		"watch": "bun --watch src/index.ts",
+		"package": "vsce package"
 	},
 	"__metadata": {
 		"id": "3a8988d3-d0e7-4b9e-a92c-5336c9b294c6",
