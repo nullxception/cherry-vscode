@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.2.6]
+
+- Improve colors consistency
+
 ## [0.2.5]
 
 - Add Cherry Midnight variant
