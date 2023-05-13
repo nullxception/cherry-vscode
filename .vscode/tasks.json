@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "bun: watch",
+            "type": "process",
+            "command": "bun",
+            "args": [
+                "run",
+                "watch"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            },
+            "isBackground": true,
+            "problemMatcher": [
+                {
+                    "pattern": [
+                        {
+                            "regexp": ".",
+                            "file": 1,
+                            "location": 2,
+                            "message": 3
+                        }
+                    ],
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": ".",
+                        "endsPattern": ".",
+                    }
+                }
+            ],
+        },
+        {
+            "label": "tasks: stop all",
+            "command": "echo ${input:terminate}",
+            "type": "shell",
+        }
+    ],
+    "inputs": [
+        {
+            "id": "terminate",
+            "type": "command",
+            "command": "workbench.action.tasks.terminate",
+            "args": "terminateAll"
+        }
+    ]
+}

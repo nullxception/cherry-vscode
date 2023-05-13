@@ -13,6 +13,8 @@
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ],
+            "preLaunchTask": "bun: watch",
+            "postDebugTask": "tasks: stop all"
         },
     ]
 }
