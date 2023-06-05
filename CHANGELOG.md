@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.2.7]
+
+- Reduce background value on cherry variant
+- Add more tint to the grey and fg colors
+
 ## [0.2.6]
 
 - Improve colors consistency
