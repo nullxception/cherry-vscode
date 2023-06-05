@@ -1,44 +1,51 @@
 import chroma from "chroma-js";
 
-interface ColorScheme {
-  background: string;
-  foreground: string;
-  black: string;
-  red: string;
-  green: string;
-  yellow: string;
-  blue: string;
-  purple: string;
-  cyan: string;
-  white: string;
-  brightBlack: string;
-  brightRed: string;
-  brightGreen: string;
-  brightYellow: string;
-  brightBlue: string;
-  brightPurple: string;
-  brightCyan: string;
-  brightWhite: string;
-}
+/**
+ *
+ * @typedef ColorScheme
+ * @prop {background} string Background color
+ * @prop {foreground} string Foreground color
+ * @prop {black} string Black color
+ * @prop {red} string Red color
+ * @prop {green} string Green color
+ * @prop {yellow} string Yellow color
+ * @prop {blue} string Blue color
+ * @prop {purple} string Purple color
+ * @prop {cyan} string Cyan color
+ * @prop {white} string White color
+ * @prop {brightBlack} string BrightBlack color
+ * @prop {brightRed} string BrightRed color
+ * @prop {brightGreen} string BrightGreen color
+ * @prop {brightYellow} string BrightYellow color
+ * @prop {brightBlue} string BrightBlue color
+ * @prop {brightPurple} string BrightPurple color
+ * @prop {brightCyan} string BrightCyan color
+ * @prop {brightWhite} string BrightWhite color
+ */
 
-interface ThemeProps {
-  name: string;
-  colorScheme: ColorScheme;
-}
+/**
+ *
+ * @typedef ThemeProps
+ * @prop {string} name Theme name
+ * @prop {ColorScheme} colorScheme The colorscheme
+ */
 
-const alpha = (color: string | number | chroma.Color, alpha: number) => {
+const alpha = (color, alpha) => {
   return chroma(color).alpha(alpha).hex();
 };
 
-const brighten = (color: string | number | chroma.Color, num: number) => {
+const brighten = (color, num) => {
   return chroma(color).brighten(num).hex();
 };
 
-const darken = (color: string | number | chroma.Color, num: number) => {
+const darken = (color, num) => {
   return chroma(color).darken(num).hex();
 };
 
-function theme(props: ThemeProps) {
+/**
+ * @param {ThemeProps} props
+ */
+function theme(props) {
   const scheme = props.colorScheme;
 
   const transparent = "#00000000";

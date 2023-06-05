@@ -6,7 +6,7 @@
 
 # Installation
 
-This theme is available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) and [OpenVSX](https://open-vsx.org/extension/nullxception/cherry-theme)
+This theme is available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=nullxception.cherry-theme) and [OpenVSX](https://open-vsx.org/extension/nullxception/cherry-theme)
 
 1. Open **Extensions** sidebar in VS Code. `View → Extensions`
 2. Search for `Cherry`
